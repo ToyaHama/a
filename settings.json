@@ -1,0 +1,53 @@
+{
+    "editor.fontSize": 16,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "window.zoomLevel": 0,
+    "editor.mouseWheelZoom": false,
+    "editor.renderWhitespace": "all",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.shell.windows": "C:\\windows\\System32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "-NoExit",
+        "chcp",
+        "65001"
+    ],
+    "workbench.colorTheme": "One Dark Pro",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "[sql]": {
+        "editor.defaultFormatter": "ms-mssql.mssql"
+    },
+    "[python]": {
+        "editor.tabSize": 4
+    },
+    "python.jediEnabled": false,
+    "python.linting.pylintEnabled": true,
+    
+    "files.associations": {
+        "*.sql": "sql"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    
+    
+    "code-runner.executorMap": {
+        "java": "cd $dir && javac -encoding UTF-8 $fileName && java -Dfile.encoding=UTF8 $fileNameWithoutExt",
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    
+    "git.enableSmartCommit": true,
+    "terminal.integrated.rendererType": "dom",
+    "files.autoSave": "afterDelay",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "python.pythonPath": "C:\\Users\\t_kawagishi\\Anaconda3\\python.exe",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    
+}
